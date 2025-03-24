@@ -4,7 +4,6 @@ Setup:
 
 <ul>
 <li>1. Clone project</li>
-<li>2. Open Project</li>
 <li>3. Copy and paste Source Code to the htdocs</li>
 <li>4. Run the XAMPP Server (Apache, MySQL)</li>
 <li>5. Open the Browser"</li>

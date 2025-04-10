@@ -2,7 +2,8 @@
     <div class="sidebar-nav navbar-collapse">
         <ul class="nav" id="side-menu">
             <li>
-            <a href="#"><i class="glyphicon glyphicon-folder-close fa-fw"></i> Items<span class="fa arrow"></span></a>
+                <a href="#"><i class="glyphicon glyphicon-folder-close fa-fw"></i> Items<span
+                        class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="<?php echo base_url('items') ?>"><i class="fa fa-circle-o"></i> View Items</a>
@@ -24,20 +25,23 @@
                 <a href="#"><i class="fa fa-truck fa-fw"></i> Deliveries<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="<?php echo base_url('deliveries') ?>"><i class="fa fa-circle-o"></i> View Deliveries</a>
+                        <a href="<?php echo base_url('deliveries') ?>"><i class="fa fa-circle-o"></i> View
+                            Deliveries</a>
                     </li>
                     <li>
                         <a href="<?php echo base_url('new-delivery') ?>"><i class="fa fa-circle-o"></i> New Delivery</a>
                     </li>
-                     
+
                 </ul>
                 <!-- /.nav-second-level -->
             </li>
             <li>
-                <a href="<?php echo base_url('sales') ?>"><i class="glyphicon glyphicon glyphicon-list-alt fa-fw"></i> Sales</a>
+                <a href="<?php echo base_url('sales') ?>"><i class="glyphicon glyphicon glyphicon-list-alt fa-fw"></i>
+                    Sales</a>
             </li>
             <li>
-                <a href="<?php echo base_url('categories') ?>"><i class="glyphicon glyphicon glyphicon-tags fa-fw"></i> Categories</a>
+                <a href="<?php echo base_url('categories') ?>"><i class="glyphicon glyphicon glyphicon-tags fa-fw"></i>
+                    Categories</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-users fa-fw"></i> Users<span class="fa arrow"></span></a>
@@ -48,13 +52,17 @@
                     <li>
                         <a href="<?php echo base_url('users/history') ?>"><i class="fa fa-circle-o"></i> History</a>
                     </li>
-                     
+
                 </ul>
             </li>
-            <li>
-                <a href="<?php echo base_url("logout") ?>"><i class="glyphicon glyphicon glyphicon-log-out fa-fw"></i> Log Out</a>
-            </li>
-            
+            <style>
+            .sidebar {
+                margin-top: 70px;
+                /* Match the height of your top navbar */
+            }
+            </style>
+
+
         </ul>
     </div>
     <!-- /.sidebar-collapse -->
